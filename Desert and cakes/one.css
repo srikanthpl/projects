@@ -1,0 +1,214 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background:black;
+    font-weight: 500;
+    font-size: 21px;
+
+  }
+  .navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 500;
+    color:rgb(255, 0, 136) !important;
+  }
+
+
+
+  #navbarSupportedContent a{
+    color: white;
+    border-bottom: 2px solid transparent;
+  }
+
+  #navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(255, 0, 136);
+    color: rgb(255, 0, 136);
+  }
+  #navbarSupportedContent button{
+    background-color:rgb(255, 0, 136);
+    border-radius: 10px;
+    
+
+  }
+  section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  #home{
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,1)),url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  #home h1{
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-shadow:0px 1px 0px #000000,
+                0px 2px 0px #000000,
+                0px 3px 0px #000000,
+                0px 4px 0px #ccc,
+                0px 5px 0px #040101,
+                0px 6px 0px #ccc,
+                0px 7px 0px #ccc; 
+
+  }
+  #home p{
+    font-size: 30px;
+
+  }
+  #home .input-group{
+    width: 30%;
+    height: 40px;
+  }
+   #home .signin{
+    background: rgb(255, 0, 136);
+    color: white;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    border-radius: 5px;
+  }
+
+  #about{
+    background: rgb(255, 0, 136);
+    padding: 20px;
+  }
+  #about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+  }
+  #about p{
+    color: white;
+    font-size:18px ;
+  }
+  #foods{
+    padding: 50px;
+    background: #e5e5e5;
+  }
+  #foods h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+  }
+
+  #foods img{
+    width: 250px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 10px !important;
+  }
+  .card{
+    width:250px;
+    height: 330px;
+    background: #e5e5e5!important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    }
+    .card:hover{
+      box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                  inset -4px -4px 10px white;
+       transition: .2s;
+    }
+    #contact{
+      padding-top: 80px;
+    }
+    #contact h1{
+      font-size: 50px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    #contact img{
+      width: 410px;
+      height: 410px;
+      box-shadow: 2px 2px 20px #43b350;
+      margin-left: -50px;
+      border-radius: 50%;
+      margin-top: -5px;
+    }
+    .box{
+      width: 90% !important;
+      margin-top: 10px;
+    }
+
+    #contact form{
+      display: flex;
+      flex-direction: column;
+    }
+    #contact input{
+      margin:  10px 0px ;
+      width:500px;
+
+    }
+    #contact textarea{
+      margin: 10px 0px;
+      width:500px;
+    }
+    #contact .btn{
+      width:500px;
+    }
+   .box1{
+    margin-right: 100px;
+ 
+    }
+    i{
+      display: flex;
+      flex-direction: row;
+    }
+    .icon{
+      width:200px;
+      position: relative;
+      display: flex;
+      justify-content:space-between ;
+      text-align: center;
+      margin-left: 130px;
+    }
+    
+   footer{
+    background: #000000;
+    width: 100%;
+    height: 30px;
+    margin-top:-40px;
+    color: white;
+    text-align: center;
+   }
+  
+
+
+
+
+
+
+
+
+
+
+
